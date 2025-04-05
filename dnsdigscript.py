@@ -14,10 +14,10 @@ def digcall(domain):
 	try:
 		# The DIG command uses our FLAG (a,cname by default), and the TLD specified. In order to get clean,
 		# concise results from the dig stdout, we specify additional flags: answer and authority, respectively for A
-		# and CNAME records. The script was also tested adding MX records to the digflags library and utilizing
+		# and CNAME records. The script was also tested adding MX records to the digflags list and utilizing
 		# the +short dig flag to return those results as well, allowing for additional functionality should the user wish.
 		if flag == 'a':
-			result = subprocess.run(['dig', flag, domain, '+noall', '+answer'], capture_output=True, text=True) 
+			result = subprocess.run(['dig', flag, domain, '+noall', '+answer'], capture_output=True, text=True)
 		elif flag == 'cname':
 			result = subprocess.run(['dig', flag, domain, '+noall', '+authority'], capture_output=True, text=True)
 		else:
