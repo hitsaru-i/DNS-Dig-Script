@@ -17,7 +17,7 @@ Each individual record is then added to a new csv output file (tlddigdata.csv).
 Future work concepts:
 
 Because it might be desirable to split the individual records by type (a/cname, etc) and the format
-of rows may be inconsistent with csv formating as the returns of all records are not entirely consistent it would be
+of rows may be inconsistent with csv formating as the returns of all records are not entirely consistent, it would be
 my recommendation to utilize a sqlite database to store these records, defining each record type as a table
 and then defining the exact fields to be recorded creating a consistent data structure for all entries with a new row
 for each record.
