@@ -36,18 +36,19 @@ if __name__ == "__main__":
 			print ("[>] TLD: "+tld)
 			# iterate through dig flags specified
 			for flag in digflags:
-				print ("	[-] Record Type: "+flag)
+			#	print ("	[-] Record Type: "+flag)
 				output = (digcall(tld))
-				print (output)
+			#	print (output)
 				recordslist = output.split('\n')
-				print (recordslist)
+			#	print (recordslist)
 				for record in recordslist:
-					finalline = ''
-					finalline = (''+tld+','+flag+','+record+'\n')
-			#		recordline=''
-			#		recordline += writeline+record
-					print ("[....]LINE TO WRITE to csv output:")
-					print (finalline)
-					outputfile.write(finalline)
-					print ("[!] Written.")
-print ("[!!!] End of Process")			
+					if record != '':
+#						finalline = ''
+						finalline = (''+tld+','+flag+','+record+'\n')
+				#		recordline=''
+				#		recordline += writeline+record
+						print ("[....]LINE TO WRITE to csv output:")
+						print (finalline)
+#						outputfile.write(finalline)
+						print ("[!] Written.")
+print ("[!!!] End of Process")
