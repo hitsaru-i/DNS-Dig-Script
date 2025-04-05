@@ -1,26 +1,16 @@
-google.com,a,google.com.		47	IN	A	142.250.217.78
-google.com,a,
-google.com,cname,google.com.		59	IN	SOA	ns1.google.com. dns-admin.google.com. 742200894 900 900 1800 60
-google.com,cname,
-msn.com,a,msn.com.		426	IN	A	204.79.197.219
-msn.com,a,
-msn.com,cname,msn.com.		3322	IN	SOA	dns1.p09.nsone.net. hostmaster.nsone.net. 1654633312 86400 7200 2419200 3600
-msn.com,cname,
-upwork.com,a,upwork.com.		30	IN	A	104.18.90.237
+google.com,a,google.com.		19	IN	A	142.251.33.78
+google.com,cname,google.com.		60	IN	SOA	ns1.google.com. dns-admin.google.com. 742200894 900 900 1800 60
+msn.com,a,msn.com.		2080	IN	A	204.79.197.219
+msn.com,cname,msn.com.		3491	IN	SOA	dns1.p09.nsone.net. hostmaster.nsone.net. 1654633312 86400 7200 2419200 3600
 upwork.com,a,upwork.com.		30	IN	A	104.18.89.237
-upwork.com,a,
-upwork.com,cname,upwork.com.		181	IN	SOA	fay.ns.cloudflare.com. dns.cloudflare.com. 2369271077 10000 2400 604800 1800
-upwork.com,cname,
-github.com,a,github.com.		52	IN	A	140.82.116.3
-github.com,a,
-github.com,cname,github.com.		870	IN	SOA	ns-1707.awsdns-21.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
-github.com,cname,
-yahoo.com,a,yahoo.com.		184	IN	A	98.137.11.163
-yahoo.com,a,yahoo.com.		184	IN	A	98.137.11.164
-yahoo.com,a,yahoo.com.		184	IN	A	74.6.143.26
-yahoo.com,a,yahoo.com.		184	IN	A	74.6.231.21
-yahoo.com,a,yahoo.com.		184	IN	A	74.6.143.25
-yahoo.com,a,yahoo.com.		184	IN	A	74.6.231.20
-yahoo.com,a,
-yahoo.com,cname,yahoo.com.		246	IN	SOA	ns1.yahoo.com. hostmaster.yahoo-inc.com. 2025040402 3600 300 1814400 600
-yahoo.com,cname,
+upwork.com,a,upwork.com.		30	IN	A	104.18.90.237
+upwork.com,cname,upwork.com.		945	IN	SOA	fay.ns.cloudflare.com. dns.cloudflare.com. 2369271077 10000 2400 604800 1800
+github.com,a,github.com.		33	IN	A	140.82.116.4
+github.com,cname,github.com.		3457	IN	SOA	dns1.p08.nsone.net. hostmaster.nsone.net. 1656468023 43200 7200 1209600 3600
+yahoo.com,a,yahoo.com.		1607	IN	A	74.6.231.21
+yahoo.com,a,yahoo.com.		1607	IN	A	98.137.11.164
+yahoo.com,a,yahoo.com.		1607	IN	A	98.137.11.163
+yahoo.com,a,yahoo.com.		1607	IN	A	74.6.143.26
+yahoo.com,a,yahoo.com.		1607	IN	A	74.6.143.25
+yahoo.com,a,yahoo.com.		1607	IN	A	74.6.231.20
+yahoo.com,cname,yahoo.com.		97	IN	SOA	ns1.yahoo.com. hostmaster.yahoo-inc.com. 2025040403 3600 300 1814400 600

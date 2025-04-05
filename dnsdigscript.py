@@ -1,3 +1,4 @@
+# DNS Dig script, written by Ian Hill, 2025
 import subprocess
 import re
 
@@ -49,6 +50,6 @@ if __name__ == "__main__":
 				#		recordline += writeline+record
 						print ("[....]LINE TO WRITE to csv output:")
 						print (finalline)
-#						outputfile.write(finalline)
+						outputfile.write(finalline)
 						print ("[!] Written.")
 print ("[!!!] End of Process")
